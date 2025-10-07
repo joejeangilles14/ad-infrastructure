@@ -3,7 +3,7 @@
 </p>
 </p>
 
-<h1>Preparing AD Infrastructure in (Azure)</h1>
+<h1>Preparing AD Infrastructure in Azure</h1>
 This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
 
 
