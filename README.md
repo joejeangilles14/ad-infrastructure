@@ -337,3 +337,19 @@ Click on custom and input DC-1 private IP address, which is 10.0.0.4 then save t
 Go back to virtual machines and select Client-1. CLick on the three dots and restart the virtual machine.
 </p>
 <br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/c0b40766-a560-4816-884f-5a4b1a582bea" />
+</p>
+<p>
+Copy Client-1 public address, go to Micorsoft Remote Desktop and add the PC. Then proceed to login.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/66055e54-77a8-4759-a155-c71ce5610742" />
+</p>
+<p>
+Within Client-1, search Windows Powershell, right-click and run as administrator.
+</p>
+<br />
