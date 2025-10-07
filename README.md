@@ -353,3 +353,43 @@ Copy Client-1 public address, go to Micorsoft Remote Desktop and add the PC. The
 Within Client-1, search Windows Powershell, right-click and run as administrator.
 </p>
 <br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/2737c9e4-7be2-4719-8176-80c2deaba285" />
+</p>
+<p>
+In Powershell, ping 10.0.0.4
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/026236bf-b434-42c1-8d4d-a42f6510dcb8" />
+</p>
+<p>
+Observe the data packets.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/2b523d0c-e9db-4aae-9ef0-696db726f960" />
+</p>
+<p>
+Type ipconfig /all
+</p>
+<br/>
+
+<p>
+<img src="https://github.com/user-attachments/assets/a76ca4e1-14c3-45be-b393-adc79eac8f23" />
+</p>
+<p>
+The DNS Servers is successfuly pointing to DC-1.
+</p>
+<br/>
+
+<p>
+<img src="https://github.com/user-attachments/assets/17a1edee-e57f-4e94-ab78-b3a787e8a77f" />
+</p>
+<p>
+To conclude this lab, in Azure select both Vms, click on the three dots and stop the virtual machines to discontinue them running.
+</p>
+<br/>
