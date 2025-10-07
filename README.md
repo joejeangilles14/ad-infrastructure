@@ -219,9 +219,33 @@ Go to Microsoft Remote Desktop and create DC-1 PC by adding the IP address and c
 <br />
 
 <p>
-<img width="1628" height="1172" alt="image" src="https://github.com/user-attachments/assets/42421d1c-e685-46a2-9bc9-331f8e3604db" />
+<img src="https://github.com/user-attachments/assets/6d25c0e5-b942-47a2-b093-3e39d36e60fe" />
 </p>
 <p>
+Upon logging into the domain controller successfully, the server manager dashboard should open automatically.
+</p>
+<br />
 
+<p>
+<img src="https://github.com/user-attachments/assets/ee017160-ed33-449f-8e32-bc127993f1a7" />
+</p>
+<p>
+Richt-click on the start icon and go to System.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/279dbf78-c52f-4670-b061-ea1c5a20352b" />
+</p>
+<p>
+In the Windows specifications section, Windows Server 2022 is the correct edition.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/5a0ac7bf-342a-4bd6-a736-86608891b394" />
+</p>
+<p>
+Right-click on the start icon and select Run.
 </p>
 <br />
