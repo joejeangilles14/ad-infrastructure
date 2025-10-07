@@ -331,7 +331,7 @@ Click on custom and input DC-1 private IP address, which is 10.0.0.4 then save t
 <br />
 
 <p>
-<img src="https://github.com/user-attachments/assets/c0c27194-5b6a-45a8-ab2d-2e31fc05afa4" />
+<img src="https://github.com/user-attachments/assets/346bb98c-e7c6-4f30-af0d-f161e6daa98d" />
 </p>
 <p>
 Go back to virtual machines and select Client-1. CLick on the three dots and restart the virtual machine.
