@@ -142,52 +142,44 @@ Set the Active-Directory as the resource group, name the virtual machine and set
 <img src="https://github.com/user-attachments/assets/93c98d1d-5bfe-48f1-8d2b-20813bd77200" />
 </p>
 <p>
-Set the size to at least 2 cores with 8GB of memory.
+Select the Windows 10 Pro version 222 x64 Gen2, set the size to at least 2 cores with 8GB of memory, and if needed set to the correct Zone number.
 </p>
 <br />
 
 <p>
-
+<img src="https://github.com/user-attachments/assets/270f5945-6048-49df-ab42-40396b9065b1" />
 </p>
 <p>
-The image should be Windows 10 Pro version 22H2 x64 Gen2. In the Administrator account section set the username and password. After all the settings are set, review and create.
-</p>
-<br />
-
-<p>
-
-</p>
-<p>
-Deployment for the client vm is in progress.
+In the Administrator account section set the username and password. After all the settings are set, review and create.
 </p>
 <br />
 
 <p>
-
+<img src="https://github.com/user-attachments/assets/3fa4e846-7e67-4420-bca6-2376e0acc652" />
 </p>
 <p>
-Navigate to the dc-1 virtual machine.
-</p>
-<br />
-
-<p>
-
-</p>
-<p>
-Locate Network settings.
+Deployment for the client vm is complete.
 </p>
 <br />
 
 <p>
-
+<img src="https://github.com/user-attachments/assets/b5819d29-76f1-4a7f-a291-3329a6e23a35" />
 </p>
 <p>
-Click on the Network inteface/ IP configuration.
+Navigate to the DC-1 virtual machine. Locate Network settings.
 </p>
 <br />
 
 <p>
+<img src="https://github.com/user-attachments/assets/7999150c-34d2-46d1-8ad0-828f8197e78e" />
+</p>
+<p>
+Click on the Network inteface/ IP configuration aka NIC.
+</p>
+<br />
 
+<p>
+<img src="https://github.com/user-attachments/assets/d42a4bbb-3c83-43d7-a140-36e93090725d" />
 </p>
 <p>
 Under settings, go to IP configurations, and click on ipconfig1
@@ -195,16 +187,15 @@ Under settings, go to IP configurations, and click on ipconfig1
 <br />
 
 <p>
-
+<img src="https://github.com/user-attachments/assets/e361d37e-9fdc-4aa2-99fd-ce327797cd0d" />
 </p>
-
 <p>
 Change the Allocation from Dynamic to Static and save the changes.
 </p>
 <br />
 
 <p>
-
+<img src="https://github.com/user-attachments/assets/d6dfd1e5-d4c8-4f69-971d-b06d552c0acd" />
 </p>
 <p>
 Notice that tha Private IP Address is set to Static.
@@ -212,17 +203,25 @@ Notice that tha Private IP Address is set to Static.
 <br />
 
 <p>
-  
+<img src="https://github.com/user-attachments/assets/62ec152e-c695-44c8-a98f-bd6a1e539e83" />
 </p>
 <p>
-Search for Virtual Machnies.
+Search VM and copy DC-1 IP address.
 </p>
 <br />
 
 <p>
-  
+<img width="1628" height="1172" alt="image" src="https://github.com/user-attachments/assets/42421d1c-e685-46a2-9bc9-331f8e3604db" />
 </p>
 <p>
-Select dc-1 vm.
+Go to Microsoft Remote Desktop and create DC-1 PC by adding the IP address and click Add.
+</p>
+<br />
+
+<p>
+<img width="1628" height="1172" alt="image" src="https://github.com/user-attachments/assets/42421d1c-e685-46a2-9bc9-331f8e3604db" />
+</p>
+<p>
+
 </p>
 <br />
