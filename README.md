@@ -246,6 +246,94 @@ In the Windows specifications section, Windows Server 2022 is the correct editio
 <img src="https://github.com/user-attachments/assets/5a0ac7bf-342a-4bd6-a736-86608891b394" />
 </p>
 <p>
-Right-click on the start icon and select Run.
+Right-click on the start icon and select Run or press "command + R" to open Run.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/c0f1d0be-13dd-41c3-9ca7-9a7fdab4f9a2" />
+</p>
+<p>
+In Run, type wf.msc to open open up Windows Firewall.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/c0f1d0be-13dd-41c3-9ca7-9a7fdab4f9a2" />
+</p>
+<p>
+In Run, type wf.msc to open open up Windows Firewall.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/f27a79eb-bdd3-4b44-8dfd-5d1a48c3b79e" />
+</p>
+<p>
+Click on properties and turn the Domain Profile firewall off.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/db7c69a2-91f6-4002-848b-dafa22dd727c" />
+</p>
+<p>
+Turn the Private Profile firewall off.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/cd6e5dde-a497-411b-8b57-cbc3377ea52a" />
+</p>
+<p>
+Turn the Public Profile firewall off.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/7cab6b15-c1f9-47f4-b72d-d175c784c1bd" />
+</p>
+<p>
+Observe that the firewall has been turned off.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/4b9f385d-bdc1-4508-a4ac-1de92f5b67cb" />
+</p>
+<p>
+Click on DC-1 in Azure. scroll to the Networking section and observe the private IP address.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/ad9cdbac-578d-4e10-81a9-37eff487f22c" />
+</p>
+<p>
+Click on the Network/IP configuration.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/587c10c9-c2af-4d57-8d87-83e0194fd1e2" />
+</p>
+<p>
+In the settings tab, go to DNS servers. It shows that the DNS servers is inherited from the virtual network.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/13429a87-727a-447a-94de-d984458b601a" />
+</p>
+<p>
+Click on custom and input DC-1 private IP address, which is 10.0.0.4 then save the changes.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/c0c27194-5b6a-45a8-ab2d-2e31fc05afa4" />
+</p>
+<p>
+Go back to virtual machines and select Client-1. CLick on the three dots and restart the virtual machine.
 </p>
 <br />
